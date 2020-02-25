@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# Capstone
+**Graduation Project Showcase**
 
-You can use the [editor on GitHub](https://github.com/ccharlebois/ccharlebois.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+As I conclude my studies at Southern New Hampshire University, I can look back as see what I have learned, and more importantly, how what I have learned can work with my previous knowledge and experience to move me forward in my career.  I have over 20 years of experience in Information Technology.  However, that has mainly been in Network Design and Engineering.  I have installed servers and implemented applications.  I have designed and built data and voice networks from the ground up.  I have secured network and prioritized traffic to limit and allow different protocols to support different applications.  However, I have not been directly involved in any software development, and it is an understanding of the development process that I have gained at SNHU. In particular, the experience that I gained using Git for collaborating with other programmers and the experience with application development creating an Android app were particularly interesting.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I have included in the portfolio three projects that I have developed over the course of this program.  I selected them because they have real and practical applications. Each of these projects can be expanded upon to meet real-world requirements.
+    
+The first is an Internet of Things (IoT) device.  It is a temperature, humidity, and light-level recording station built on the RaspberryPi platform, using the Seeed Grove Hat for peripheral access.  This base system can be expanded to use any number of sensors and can also be configured with relays to control other devices, either based on environmental triggers or in response to a signal from another device.
 
-### Markdown
+The second project is an OpenGL 3-D graphics animation that uses the mouse for controls.  Specifically, holding down the left mouse button moves the camera; forward and back moves the camera up and down, and tilts the view automatically to keep the object in the center, while left and right rotates the camera around the object.  Holding down the right mouse button rotates the object itself.  This was created using the Open Graphics Library (OpenGL) for maximum compatibility and was generated without modeling tools.  I am interested in how graphics such as this can be used to convene information to users in an intuitive manner.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ccharlebois/ccharlebois.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The final project is a RESTful API which provides access to a Mongo database. This platform is built on the Debian 10 distribution of Linux.  It is currently configured to receive remote sensor data from the RaspberryPI temperature/humidity/light sensor, although the RESTful interface could be expanded to support any form for network communication and the Mongo database can support thousands of simultaneous connections.
