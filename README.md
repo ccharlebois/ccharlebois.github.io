@@ -7,7 +7,7 @@ I have included in the portfolio three projects that I have developed over the c
     
 The first is an [Internet of Things (IoT) device](./Project_1_RemoteTempSensor.md).  It is a temperature, humidity, and light-level recording station built on the RaspberryPi platform, using the Seeed Grove Hat for peripheral access.  This base system can be expanded to use any number of sensors and can also be configured with relays to control other devices, either based on environmental triggers or in response to a signal from another device. 
 
-A video code review of this project can be found at https://youtu.be/ggiXvc0UH_s
+A video code review of this project can be found [HERE] (https://youtu.be/ggiXvc0UH_s)
 
 The second project is an [OpenGL 3-D graphics animation](./Project_2_3DGraphics.md) that uses the mouse for controls.  Specifically, holding down the left mouse button moves the camera; forward and back moves the camera up and down, and tilts the view automatically to keep the object in the center, while left and right rotates the camera around the object.  Holding down the right mouse button rotates the object itself.  This was created using the Open Graphics Library (OpenGL) for maximum compatibility and was generated without modeling tools.  I am interested in how graphics such as this can be used to convene information to users in an intuitive manner. 
 
