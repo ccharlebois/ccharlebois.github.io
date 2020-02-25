@@ -18,8 +18,8 @@ Error handling was both the most challenging and enjoyable part of this project.
 
 **File Included:**
 
-**RemoteSensor.py** - This is the Python script that records the data, writes it locally and uses a HTTP Post command to write the JSON formatted data to a RESTful API (See Project #3). This script has two configurable variables within the script. The first is cycleTime, which indicates how frequently the script is run, which is set at 5 seconds.  The second is sensorCycle, which indicates the minimum amount of time between sensor recordings. This scripthas both because a previous iteration of the script would only record data if the light level were at a minimum level of brightness for a certain amount of time to indicate daylight.
+[RemoteSensor.py](./RemoteSensor.py) - This is the Python script that records the data, writes it locally and uses a HTTP Post command to write the JSON formatted data to a RESTful API (See Project #3). This script has two configurable variables within the script. The first is cycleTime, which indicates how frequently the script is run, which is set at 5 seconds.  The second is sensorCycle, which indicates the minimum amount of time between sensor recordings. This scripthas both because a previous iteration of the script would only record data if the light level were at a minimum level of brightness for a certain amount of time to indicate daylight.
 
-**RemoteSensor.jpg** - This is a photo of the Raspberry Pi with Groove hat and sensors.
+[RemoteSensor.jpg](./RemoteSensor.jpg) - This is a photo of the Raspberry Pi with Groove hat and sensors.
 
-**temp_hum_history.json** - This is a sample local file of the sensor readings.
+[temp_hum_history.json](./temp_hum_history.json) - This is a sample local file of the sensor readings.
