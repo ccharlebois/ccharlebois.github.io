@@ -18,8 +18,8 @@ Installing the Debian 10 system was straightforward. The Mongo install was a lit
 
 **Files Included:**
 
-**SensorReadings.py** - This script implements the RESTful interface. 
+[SensorReadings.py](./SensorReadings.py) - This script implements the RESTful interface. 
 
-**Screenshot.jpg** - This is a screenshot of the Raspberry Pi script uploading the sensor data and the RESTful interface receiving the data.
+[Screenshot.jpg](./Screenshot.jpg) - This is a screenshot of the Raspberry Pi script uploading the sensor data and the RESTful interface receiving the data.
 
-**database.jpg** - This is a screenshot of the Mongo database query showing the recorded data.
+[database.jpg](./database.jpg) - This is a screenshot of the Mongo database query showing the recorded data.
